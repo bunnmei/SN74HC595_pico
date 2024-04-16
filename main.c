@@ -86,7 +86,7 @@ int main()
     gpio_set_dir(RCLK, GPIO_OUT);
     gpio_set_dir(SRCLK, GPIO_OUT);
 
-    int temp = 299;
+    int temp = 199;
 
     int16_t arr[3] = {0};
     while (1) {
